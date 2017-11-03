@@ -9,10 +9,11 @@ Development environment:
 Atmel studio
 
 pin setting:
-
+<pre>
 uCamIII      <->    Arduino Due
 	5V                 5V
 	GND                GND
 	RES                RESET
 	TX                 RX1(pin19)
 	RX                 TX1(pin18)
+</pre>
