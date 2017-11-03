@@ -1,5 +1,8 @@
 # ArduinoDueIpcam
 
+Introduction:
+The small IP camera made by Arduino Due development board will send continous JPEG frames to client side.
+
 The hardware requirement:
 1. The arduino due board
 2. uCamIII 
@@ -17,3 +20,12 @@ uCamIII      <->    Arduino Due
 	TX                 RX1(pin19)
 	RX                 TX1(pin18)
 </pre>
+
+Console baud rate: 115200 bps
+
+Test method:
+use JPlayer (motion JPEG player) connect to the Arduino Due tiny web server
+
+for example:
+if server ip is 192.168.1.100
+under JPlayer, type http://192.168.1.100
